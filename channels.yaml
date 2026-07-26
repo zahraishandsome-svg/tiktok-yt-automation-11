@@ -1,0 +1,121 @@
+# TikTok to YouTube Channel Pairs
+#
+# ch11 — onboarded 2026-07-26. Own repo + own GCP project under
+# notalysialys@gmail.com (standard policy: every channel fully de-correlated).
+#
+# This channel is DIFFERENT from the others: it releases one multi-part LONGFORM
+# series in order, one part every 3 days, with hand-written SEO titles and
+# descriptions instead of the raw TikTok caption.
+
+channels:
+  - id: channel_11
+    tiktok_username: "lysialys_"
+    youtube_channel_name: "alysia"
+    google_credentials_file: "credentials/channel_11_client_secret.json"
+    oauth_token_file: "tokens/channel_11_token.json"
+    videos_per_day: 1
+    description_footer: ""
+    default_tags:
+      - amputee
+      - limb loss
+      - prosthetic leg
+      - hip disarticulation
+      - amputee story
+      - air force
+      - disability
+      - survivor story
+    youtube_category_id: "22"
+    enabled: true
+    max_retry_days: 7
+    # Longform storytelling — these are 6-12 minute videos, never Shorts.
+    shorts_max_seconds: 0
+
+    # sequence: release these TikTok IDs in this exact order, one at a time.
+    upload_mode: sequence
+    video_sequence:
+      - "7639811890914299166"   # Part 1 — 11:55
+      - "7639812036066577694"   # Part 2 — 10:01
+      - "7639812157781200159"   # Part 3 —  6:02
+
+    # The cron fires daily; this gate releases the next part only once 3 whole
+    # days have passed since the last upload. No every-3-days cron needed.
+    min_days_between_uploads: 3
+
+    max_download_candidates: 5
+
+    # Hand-written SEO title + description per video (overrides the TikTok caption).
+    video_meta:
+      "7639811890914299166":
+        title: "How I Lost My Entire Right Leg | Part 1: The Air Force Crash"
+        description: |
+          A rescue vehicle crash on an Air Force base changed my life in
+          seconds. This is Part 1 of my story — how the accident happened, what
+          the doctors had to do to save me, and how I woke up as a hip
+          disarticulation amputee.
+
+          A hip disarticulation is one of the rarest amputations there is: my
+          entire right leg was removed at the hip joint. Very few amputees have
+          this level of limb loss, and almost nobody talks about what it's
+          actually like to live with.
+
+          ⚠️ Trigger warning: this video contains some graphic images and a
+          detailed description of a traumatic injury.
+
+          ▶ This is a 3-part series. Part 2 comes out in 3 days.
+
+          📄 Sources referenced in this video:
+          Air Force JAG investigation report:
+          https://www.afjag.af.mil/LinkClick.aspx?fileticket=BlCD_qfZsHg%3d&portalid=77
+          Full investigation documents:
+          https://drive.google.com/file/d/1GCIzj1XQCNpl25sb-C24MqFSWjc6ei_l/view?usp=drive_link
+          Task & Purpose news coverage:
+          https://taskandpurpose.com/news/air-force-rescue-vehicle-crash/
+
+          Thank you so much for listening to my story. It's been the craziest
+          road, but I'm so grateful to be here 💛
+
+          #amputee #limbloss #prosthetic #airforce #hipdisarticulation
+
+      "7639812036066577694":
+        title: "How I Lost My Entire Right Leg | Part 2: Surgeries, Recovery & Learning to Live Again"
+        description: |
+          Part 2 of my limb loss story. After the crash came the part nobody
+          prepares you for — the surgeries, the hospital months, the phantom
+          pain, and slowly rebuilding a life as a hip disarticulation amputee.
+
+          If you're new here, start with Part 1 for how the accident happened.
+
+          ⚠️ Trigger warning: graphic images and detailed medical discussion.
+
+          ▶ Part 3 comes out in 3 days.
+
+          📄 Sources referenced in this series:
+          Air Force JAG investigation report:
+          https://www.afjag.af.mil/LinkClick.aspx?fileticket=BlCD_qfZsHg%3d&portalid=77
+          Task & Purpose news coverage:
+          https://taskandpurpose.com/news/air-force-rescue-vehicle-crash/
+
+          #amputee #limbloss #prosthetic #recovery #hipdisarticulation
+
+      "7639812157781200159":
+        title: "How I Lost My Entire Right Leg | Part 3: Life as a Hip Disarticulation Amputee"
+        description: |
+          The final part of my story. Where I am now — walking with a
+          prosthesis, driving again, and what I'd tell anyone who is at the
+          start of their own limb loss journey.
+
+          Watch Part 1 and Part 2 first for the full story.
+
+          📄 Sources referenced in this series:
+          Air Force JAG investigation report:
+          https://www.afjag.af.mil/LinkClick.aspx?fileticket=BlCD_qfZsHg%3d&portalid=77
+          Task & Purpose news coverage:
+          https://taskandpurpose.com/news/air-force-rescue-vehicle-crash/
+
+          Thank you for being here 💛
+
+          #amputee #limbloss #prosthetic #disability #hipdisarticulation
+
+    # English content, US audience — timed for US evening prime.
+    slot_publish_times_utc:
+      1: "22:00"   # PUBLIC at 6 PM ET / 3 PM PT
