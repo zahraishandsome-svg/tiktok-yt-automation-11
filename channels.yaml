@@ -44,26 +44,33 @@ channels:
     max_download_candidates: 5
 
     # Hand-written SEO title + description per video (overrides the TikTok caption).
+    # All three share the same detailed description; only the part marker differs.
     video_meta:
       "7639811890914299166":
         title: "How I Lost My Entire Right Leg | Part 1: The Air Force Crash"
         description: |
-          A rescue vehicle crash on an Air Force base changed my life in
-          seconds. This is Part 1 of my story — how the accident happened, what
-          the doctors had to do to save me, and how I woke up as a hip
-          disarticulation amputee.
+          In 2023, a rescue vehicle crash on a US Air Force base changed my
+          life in a matter of seconds. This series is the full story of that
+          day and everything that came after — told by me, in my own words.
 
-          A hip disarticulation is one of the rarest amputations there is: my
-          entire right leg was removed at the hip joint. Very few amputees have
-          this level of limb loss, and almost nobody talks about what it's
-          actually like to live with.
+          I'm a hip disarticulation amputee. My entire right leg was removed at
+          the hip joint, which is one of the rarest levels of limb loss there
+          is. Very few amputees have this amputation, and almost nobody talks
+          about what it actually looks like to live with it — the emergency
+          surgeries, the months in hospital, phantom pain, and relearning how
+          to sit, drive and walk again with a prosthesis.
 
-          ⚠️ Trigger warning: this video contains some graphic images and a
-          detailed description of a traumatic injury.
+          📺 The full 3-part series:
+          Part 1 — the crash, the emergency surgeries, and waking up as an amputee
+          Part 2 — recovery, rehab, and rebuilding a life
+          Part 3 — where I am today, and what I'd tell anyone starting this journey
 
-          ▶ This is a 3-part series. Part 2 comes out in 3 days.
+          ⚠️ Trigger warning: this series contains graphic images and detailed
+          descriptions of a traumatic injury and medical procedures.
 
-          📄 Sources referenced in this video:
+          ▶ You're watching Part 1 of 3. Part 2 comes out in 3 days.
+
+          📄 Sources referenced in this series:
           Air Force JAG investigation report:
           https://www.afjag.af.mil/LinkClick.aspx?fileticket=BlCD_qfZsHg%3d&portalid=77
           Full investigation documents:
@@ -75,46 +82,85 @@ channels:
           road, but I'm so grateful to be here 💛
 
           #amputee #limbloss #prosthetic #airforce #hipdisarticulation
+          #amputeestory #disability #prostheticleg #survivorstory
 
       "7639812036066577694":
         title: "How I Lost My Entire Right Leg | Part 2: Surgeries, Recovery & Learning to Live Again"
         description: |
-          Part 2 of my limb loss story. After the crash came the part nobody
-          prepares you for — the surgeries, the hospital months, the phantom
-          pain, and slowly rebuilding a life as a hip disarticulation amputee.
+          In 2023, a rescue vehicle crash on a US Air Force base changed my
+          life in a matter of seconds. This series is the full story of that
+          day and everything that came after — told by me, in my own words.
 
-          If you're new here, start with Part 1 for how the accident happened.
+          I'm a hip disarticulation amputee. My entire right leg was removed at
+          the hip joint, which is one of the rarest levels of limb loss there
+          is. Very few amputees have this amputation, and almost nobody talks
+          about what it actually looks like to live with it — the emergency
+          surgeries, the months in hospital, phantom pain, and relearning how
+          to sit, drive and walk again with a prosthesis.
 
-          ⚠️ Trigger warning: graphic images and detailed medical discussion.
+          📺 The full 3-part series:
+          Part 1 — the crash, the emergency surgeries, and waking up as an amputee
+          Part 2 — recovery, rehab, and rebuilding a life
+          Part 3 — where I am today, and what I'd tell anyone starting this journey
 
-          ▶ Part 3 comes out in 3 days.
+          ⚠️ Trigger warning: this series contains graphic images and detailed
+          descriptions of a traumatic injury and medical procedures.
+
+          ▶ You're watching Part 2 of 3. Watch Part 1 first if you haven't —
+          Part 3 comes out in 3 days.
 
           📄 Sources referenced in this series:
           Air Force JAG investigation report:
           https://www.afjag.af.mil/LinkClick.aspx?fileticket=BlCD_qfZsHg%3d&portalid=77
+          Full investigation documents:
+          https://drive.google.com/file/d/1GCIzj1XQCNpl25sb-C24MqFSWjc6ei_l/view?usp=drive_link
           Task & Purpose news coverage:
           https://taskandpurpose.com/news/air-force-rescue-vehicle-crash/
 
-          #amputee #limbloss #prosthetic #recovery #hipdisarticulation
+          Thank you so much for listening to my story. It's been the craziest
+          road, but I'm so grateful to be here 💛
+
+          #amputee #limbloss #prosthetic #airforce #hipdisarticulation
+          #amputeestory #disability #prostheticleg #survivorstory
 
       "7639812157781200159":
         title: "How I Lost My Entire Right Leg | Part 3: Life as a Hip Disarticulation Amputee"
         description: |
-          The final part of my story. Where I am now — walking with a
-          prosthesis, driving again, and what I'd tell anyone who is at the
-          start of their own limb loss journey.
+          In 2023, a rescue vehicle crash on a US Air Force base changed my
+          life in a matter of seconds. This series is the full story of that
+          day and everything that came after — told by me, in my own words.
 
-          Watch Part 1 and Part 2 first for the full story.
+          I'm a hip disarticulation amputee. My entire right leg was removed at
+          the hip joint, which is one of the rarest levels of limb loss there
+          is. Very few amputees have this amputation, and almost nobody talks
+          about what it actually looks like to live with it — the emergency
+          surgeries, the months in hospital, phantom pain, and relearning how
+          to sit, drive and walk again with a prosthesis.
+
+          📺 The full 3-part series:
+          Part 1 — the crash, the emergency surgeries, and waking up as an amputee
+          Part 2 — recovery, rehab, and rebuilding a life
+          Part 3 — where I am today, and what I'd tell anyone starting this journey
+
+          ⚠️ Trigger warning: this series contains graphic images and detailed
+          descriptions of a traumatic injury and medical procedures.
+
+          ▶ You're watching Part 3 of 3 — the final part. Start with Part 1
+          if you're new here.
 
           📄 Sources referenced in this series:
           Air Force JAG investigation report:
           https://www.afjag.af.mil/LinkClick.aspx?fileticket=BlCD_qfZsHg%3d&portalid=77
+          Full investigation documents:
+          https://drive.google.com/file/d/1GCIzj1XQCNpl25sb-C24MqFSWjc6ei_l/view?usp=drive_link
           Task & Purpose news coverage:
           https://taskandpurpose.com/news/air-force-rescue-vehicle-crash/
 
-          Thank you for being here 💛
+          Thank you so much for listening to my story. It's been the craziest
+          road, but I'm so grateful to be here 💛
 
-          #amputee #limbloss #prosthetic #disability #hipdisarticulation
+          #amputee #limbloss #prosthetic #airforce #hipdisarticulation
+          #amputeestory #disability #prostheticleg #survivorstory
 
     # English content, US audience — timed for US evening prime.
     slot_publish_times_utc:
