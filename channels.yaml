@@ -11,6 +11,8 @@ channels:
   - id: channel_11
     tiktok_username: "lysialys_"
     youtube_channel_name: "alysia"
+    # The Google account that owns this YouTube channel (onboarding record).
+    owner_email: "notalysialys@gmail.com"
     google_credentials_file: "credentials/channel_11_client_secret.json"
     oauth_token_file: "tokens/channel_11_token.json"
     videos_per_day: 1
