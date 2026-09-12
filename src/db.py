@@ -187,7 +187,8 @@ def get_last_upload_date(channel_id: str):
         return None
 
 
-def get_posted_video_ids(channel_id: str, upload_mode: str = "short_only") -> set:
+def get_posted_video_ids(channel_id: str, upload_mode: str = "short_only",
+                         allow_repost_other_format: bool = False) -> set:
     """
     Returns video IDs that must NOT be selected for a new upload.
 
@@ -204,7 +205,13 @@ def get_posted_video_ids(channel_id: str, upload_mode: str = "short_only") -> se
     """
     conn = get_connection()
 
-    if upload_mode in ("longform_only", "dual", "split", "trim_dual"):
+    # One TikTok video is uploaded to a channel ONCE, in whatever format.
+    # This used to depend on upload_mode, and the newer modes (popular_split,
+    # tiered_split, popular_only, sequence) were not in the list — so a video
+    # already uploaded as longform was invisible here and got picked again as a
+    # Short. 12 Sep 2026: 85 such re-uploads on channel_3, 58 on channel_5.
+    # A channel can opt back in with allow_repost_other_format: true.
+    if not allow_repost_other_format:
         # Exclude a video if it has ANY done-status row in ANY format.
         # This prevents re-uploading a video that was previously posted as a
         # Short (short_only) and the channel later switched to longform_only/dual.
